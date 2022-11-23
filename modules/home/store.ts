@@ -3,7 +3,8 @@ import { ref } from "vue";
 
 export const useStore = defineStore("home", () => {
   const app = ref({
-    name: "App name",
+    name: "Home store name",
+    description: "Home store description",
   });
 
   return {
